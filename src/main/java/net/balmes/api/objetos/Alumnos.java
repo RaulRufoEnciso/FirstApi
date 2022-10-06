@@ -4,30 +4,30 @@ import java.time.LocalDate;
 
 public class Alumnos {
 
-	private String name;
-    private String surname;
+	private String nombre;
+    private String surnombre;
     private LocalDate since;
 
-    public Alumnos(String name, String surname, LocalDate since) {
-        this.name = name;
-        this.surname = surname;
+    public Alumnos(String nombre, String surnombre, LocalDate since) {
+        this.nombre = nombre;
+        this.surnombre = surnombre;
         this.since = since;
     }
 
-    public String getName() {
-        return name;
+    public String getnombre() {
+        return nombre;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setnombre(String nombre) {
+        this.nombre = nombre;
     }
 
-    public String getSurname() {
-        return surname;
+    public String getSurnombre() {
+        return surnombre;
     }
 
-    public void setSurname(String surname) {
-        this.surname = surname;
+    public void setSurnombre(String surnombre) {
+        this.surnombre = surnombre;
     }
 
     public LocalDate getSince() {
@@ -40,6 +40,6 @@ public class Alumnos {
 
     @Override
     public String toString() {
-        return "Client [name=" + name + ", since=" + since + ", surname=" + surname + "]";
+        return "Client [nombre=" + nombre + ", since=" + since + ", surnombre=" + surnombre + "]";
     }
 }
