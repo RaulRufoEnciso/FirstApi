@@ -1,4 +1,4 @@
-package net.balmes.api.objetos;
+package net.balmes.api.objects;
 
 import java.time.LocalDate;
 
