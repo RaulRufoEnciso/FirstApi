@@ -15,7 +15,7 @@ public class ufController {
 	@GetMapping("ufs/{nUf}")
 	public ufs getClient(@PathVariable int nUf) {
 		List<ufs> listaUf = new ArrayList<>();
-		ufs uf1 = new ufs("M01", 100, 29);
+		ufs uf1 = new ufs("M01", 100, 28);
         ufs uf2 = new ufs("M01", 50, 25);
         ufs uf3 = new ufs("M01", 25, 30);
         ufs uf4 = new ufs("M01", 12, 20);
