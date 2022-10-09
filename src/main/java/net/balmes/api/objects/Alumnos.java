@@ -40,8 +40,17 @@ public class Alumnos {
         this.since = since;
     }
 
+    public String getDni() {
+        return dni;
+    }
+
+    public void setDni(String dni) {
+        this.dni = dni;
+    }
+
     @Override
     public String toString() {
-        return "Client [name=" + name + ", since=" + since + ", surname=" + surname + "]";
+        return "Alumnos [name=" + name + ", surname=" + surname + ", since=" + since + ", dni=" + dni + "]";
     }
+
 }
