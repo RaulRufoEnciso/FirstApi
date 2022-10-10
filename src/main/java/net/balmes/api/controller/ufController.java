@@ -31,7 +31,7 @@ public class ufController {
 	@GetMapping("ufs")
 	public List<ufs> getClients() {
 		List<ufs> uf = new ArrayList<>();
-		uf.add(new ufs("M01", 100, 29));
+		uf.add(new ufs("M01", 100, 28));
 		uf.add(new ufs("M01", 50, 25));
 		uf.add(new ufs("M01", 25, 30));
 		uf.add(new ufs("M01", 12, 20));
