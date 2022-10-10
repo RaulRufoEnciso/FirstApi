@@ -30,14 +30,14 @@ public class AlumneController {
 		return listaAlumnos.get(nAlumnos -1);
 	}
 
-	@GetMapping("clients")
-	public List<Alumnos> getClients() {
-		List<Alumnos> clients = new ArrayList<>();
-		clients.add(new Alumnos("Joana", "Petita", LocalDate.of(2000, Month.APRIL, 23), "24547458R"));
-		clients.add(new Alumnos("Joan", "Petit", LocalDate.of(2000, Month.MARCH, 22), "24547458R"));
-		clients.add(new Alumnos("Luis", "Garcia", LocalDate.of(2000, Month.APRIL, 23), "24547458R"));
-		clients.add(new Alumnos("Mercedes", "Benz", LocalDate.of(2000, Month.MARCH, 22), "24547458R"));
-		return clients;
+	@GetMapping("alumnos")
+	public List<Alumnos> getalumnos() {
+		List<Alumnos> alumnos = new ArrayList<>();
+		alumnos.add(new Alumnos("Joana", "Petita", LocalDate.of(2000, Month.APRIL, 23), "24547458R"));
+		alumnos.add(new Alumnos("Joan", "Petit", LocalDate.of(2000, Month.MARCH, 22), "24547458R"));
+		alumnos.add(new Alumnos("Luis", "Garcia", LocalDate.of(2000, Month.APRIL, 23), "24547458R"));
+		alumnos.add(new Alumnos("Mercedes", "Benz", LocalDate.of(2000, Month.MARCH, 22), "24547458R"));
+		return alumnos;
 	}
 
 }
