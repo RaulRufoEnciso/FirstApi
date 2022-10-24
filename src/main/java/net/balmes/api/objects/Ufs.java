@@ -1,12 +1,12 @@
 package net.balmes.api.objects;
 
-public class ufs {
+public class Ufs {
 	
 	private String modulo;
 	private int tiempo;
 	private int alumnosReg;
 	
-	public ufs(String modulo, int tiempo, int alumnosReg) {
+	public Ufs(String modulo, int tiempo, int alumnosReg) {
 		super();
 		this.modulo = modulo;
 		this.tiempo = tiempo;

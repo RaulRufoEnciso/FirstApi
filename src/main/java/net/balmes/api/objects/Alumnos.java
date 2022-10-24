@@ -7,15 +7,24 @@ public class Alumnos {
     private String surname;
     private LocalDate since;
     private String dni;
+    private String email;
+    private String grupo;
 
-    public Alumnos(String name, String surname, LocalDate since, String dni) {
-        this.name = name;
-        this.surname = surname;
-        this.since = since;
-        this.dni = dni;
-    }
+    public Alumnos() {
+		super();
+	}
 
-    public String getname() {
+	public Alumnos(String name, String surname, LocalDate since, String dni, String email, String grupo) {
+		super();
+		this.name = name;
+		this.surname = surname;
+		this.since = since;
+		this.dni = dni;
+		this.email = email;
+		this.grupo = grupo;
+	}
+	
+	public String getname() {
         return name;
     }
 
@@ -46,10 +55,30 @@ public class Alumnos {
     public void setDni(String dni) {
         this.dni = dni;
     }
+    
+    public String getEmail() {
+		return email;
+	}
 
-    @Override
-    public String toString() {
-        return "Alumnos [name=" + name + ", surname=" + surname + ", since=" + since + ", dni=" + dni + "]";
-    }
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getGrupo() {
+		return grupo;
+	}
+
+	public void setGrupo(String grupo) {
+		this.grupo = grupo;
+	}
+
+	@Override
+	public String toString() {
+		return "Alumnos: \n  Name=" + name + "\n  Apellido=" + surname + "\n  Fecha de nacimiento=" + since + "\n  DNI=" + dni + "\n  Email="
+				+ email + "\n Grupo=" + grupo + "\n";
+	}
+
+
+    
 
 }
