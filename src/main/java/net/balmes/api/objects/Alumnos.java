@@ -3,7 +3,6 @@ package net.balmes.api.objects;
 import java.time.LocalDate;
 
 public class Alumnos {
-
 	private String name;
     private String surname;
     private LocalDate since;
