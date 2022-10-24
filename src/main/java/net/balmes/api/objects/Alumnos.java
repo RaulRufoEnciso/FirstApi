@@ -74,7 +74,7 @@ public class Alumnos {
 
 	@Override
 	public String toString() {
-		return "Alumnos: \n  Name=" + name + "\n  Apellido=" + surname + "\n  Fecha de nacimiento=" + since + "\n  DNI=" + dni + "\n  Email="
+		return "Alumnos: \n  Name=" + name + "\n  Apellido=" + surname + "\n  Fecha de nacimiento = " + since + "\n  DNI=" + dni + "\n  Email="
 				+ email + "\n Grupo=" + grupo + "\n";
 	}
 
