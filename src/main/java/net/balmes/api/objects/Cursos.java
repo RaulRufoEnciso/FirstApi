@@ -4,12 +4,14 @@ public class Cursos {
     final String group = "Cursos";
     private String cfgs;
     private String año;
+    private int curs;
     private String aula;
     private String grupo;
 
-    public Cursos(String cfgs, String año, String aula, String grupo) {
+    public Cursos(String cfgs, String año, int curs, String aula, String grupo) {
         this.cfgs = cfgs;
         this.año = año;
+        this.curs = curs;
         this.aula = aula;
         this.grupo = grupo;
     }
@@ -29,9 +31,13 @@ public class Cursos {
         return año;
     }
 
-    public void set(String año) {
-        this.año = año;
+    public void setAño(String año) { this.año = año; }
+
+    public int getCurs() {
+        return curs;
     }
+
+    public void setCurs(int curs) { this.curs = curs; }
 
     public String getAula() {
         return aula;
@@ -46,13 +52,13 @@ public class Cursos {
     }
 
     public void setGrupo(String grupo) {
-        this.aula = grupo;
+        this.grupo = grupo;
     }
 
 
     @Override
     public String toString() {
-        return "Cursos [group=" + group + ", cfgs=" + cfgs + ", año=" + año + ", aula=" + aula + ",grupo=" + grupo + " ]";
+        return "Cursos [group=" + group + ", cfgs=" + cfgs + ", año=" + año + ", curs=" + curs + ", aula=" + aula + ",grupo=" + grupo + " ]";
     }
 
 }

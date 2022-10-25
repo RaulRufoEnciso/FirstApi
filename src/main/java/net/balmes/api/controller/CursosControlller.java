@@ -11,21 +11,21 @@ public class CursosControlller {
     @GetMapping("Cursos")
     public List<Cursos> getCursos() {
         List<Cursos> CursosCFGS = new ArrayList<>();
-        CursosCFGS.add(new Cursos("ASIX", "ASIX1", "21","1"));
-        CursosCFGS.add(new Cursos("ASIX", "ASIX1", "23","1"));
-        CursosCFGS.add(new Cursos("DAM", "DAM1", "24","1"));
-        CursosCFGS.add(new Cursos("DAM", "DAM2", "25","1"));
-        CursosCFGS.add(new Cursos("DAW", "DAW1", "26","1"));
-        CursosCFGS.add(new Cursos("DAW", "DAW2", "27","1"));
-        CursosCFGS.add(new Cursos("ASIX", "ASIX1", "21","2"));
-        CursosCFGS.add(new Cursos("ASIX", "ASIX1", "23","2"));
-        CursosCFGS.add(new Cursos("DAM", "DAM1", "24","2"));
-        CursosCFGS.add(new Cursos("DAM", "DAM2", "25","2"));
-        CursosCFGS.add(new Cursos("DAW", "DAW1", "26","2"));
-        CursosCFGS.add(new Cursos("DAW", "DAW2", "27","2"));
+        CursosCFGS.add(new Cursos("ASIX", "ASIX1",1, "21","diurn"));
+        CursosCFGS.add(new Cursos("ASIX", "ASIX2",2, "23","diurn"));
+        CursosCFGS.add(new Cursos("DAM", "DAM1",1, "24","diurn"));
+        CursosCFGS.add(new Cursos("DAM", "DAM2",2, "25","diurn"));
+        CursosCFGS.add(new Cursos("DAW", "DAW1",1, "26","diurn"));
+        CursosCFGS.add(new Cursos("DAW", "DAW2",2, "27","diurn"));
+        CursosCFGS.add(new Cursos("ASIX", "ASIX1",1, "21","nocturn"));
+        CursosCFGS.add(new Cursos("ASIX", "ASIX2",2, "23","nocturn"));
+        CursosCFGS.add(new Cursos("DAM", "DAM1",1,"24","nocturn"));
+        CursosCFGS.add(new Cursos("DAM", "DAM2",2, "25","nocturn"));
+        CursosCFGS.add(new Cursos("DAW", "DAW1",1,"26","nocturn"));
+        CursosCFGS.add(new Cursos("DAW", "DAW2",2, "27","nocturn"));
 
-        //Grupo 1 = diurno
-        //Grupo 2 = nocturno
+        //horario 1 = diurno
+        //horario 2 = nocturno
 
         return CursosCFGS;
     }
