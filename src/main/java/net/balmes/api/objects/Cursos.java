@@ -1,22 +1,18 @@
 package net.balmes.api.objects;
 
 public class Cursos {
-    final String group = "Cursos";
     private String cfgs;
-    private String año;
+    private String ano;
     private int curs;
     private String aula;
     private String grupo;
 
-    public Cursos(String cfgs, String año, int curs, String aula, String grupo) {
+    public Cursos(String cfgs, String ano, int curs, String aula, String grupo) {
         this.cfgs = cfgs;
-        this.año = año;
+        this.ano = ano;
         this.curs = curs;
         this.aula = aula;
         this.grupo = grupo;
-    }
-    public String getGroup() {
-        return group;
     }
 
     public String getCFGS() {
@@ -28,10 +24,10 @@ public class Cursos {
     }
 
     public String getAño() {
-        return año;
+        return ano;
     }
 
-    public void setAño(String año) { this.año = año; }
+    public void setAño(String año) { this.ano = año; }
 
     public int getCurs() {
         return curs;
@@ -58,7 +54,7 @@ public class Cursos {
 
     @Override
     public String toString() {
-        return "Cursos [group=" + group + ", cfgs=" + cfgs + ", año=" + año + ", curs=" + curs + ", aula=" + aula + ",grupo=" + grupo + " ]";
+        return "Cursos [cfgs=" + cfgs + ", año=" + ano + ", curs=" + curs + ", aula=" + aula + ",grupo=" + grupo + " ]";
     }
 
 }
