@@ -25,7 +25,7 @@ public class CursosControlller {
         CursosCFGS.add(new Cursos("DAW", "DAW2",2, "27","nocturn"));
 
         // Horario 1 = diurno
-        // Horario 2 = nocturno
+        // Horario 2 = nocturo
 
         return CursosCFGS;
     }
