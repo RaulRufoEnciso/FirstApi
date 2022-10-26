@@ -1,4 +1,9 @@
-package net.balmes.api.objects;
+package net.balmes.api.entity;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -10,8 +15,13 @@ import lombok.ToString;
 @NoArgsConstructor 		// Añade un Constructor vacio
 @ToString 				// Añade un ToString
 
+@Entity
 public class FP {
-	final static String asix = "ASIX";
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private long id;
+	
+    final static String asix = "ASIX";
     final static String daw = "DAW";
     final static String dam = "DAM";
     final static String smix = "SMIX";

@@ -11,10 +11,14 @@ import lombok.ToString;
 @NoArgsConstructor		// Añade un Constructor vacio
 @ToString				// Añade un ToString
 
+
+
 public class Alumnos {
 	private String name;
     private String surname;
     private LocalDate since;
     private String dni;
     private String email;
+	
+    
 }
