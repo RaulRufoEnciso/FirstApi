@@ -1,10 +1,12 @@
 package net.balmes.api.repository;
 
+import java.util.List;
+
 import org.springframework.data.repository.CrudRepository;
 
-public interface CursosRepository extends CrudRepository<net.balmes.api.objects.Cursos, Long> {
+import net.balmes.api.entity.*;
 
-	public Iterable<net.balmes.api.objects.Cursos> findAll();
+public interface CursosRepository extends CrudRepository<Cursos, Long>{
 
-	void delete(net.balmes.api.objects.Cursos cursos);
+	public List<Cursos> findAll();
 }
