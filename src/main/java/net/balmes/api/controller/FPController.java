@@ -11,9 +11,9 @@ import net.balmes.api.objects.Daw;
 import net.balmes.api.objects.Smix;
 
 @RestController
-public class GrupoController {
+public class FPController {
 
-    @GetMapping("Asix")
+    @GetMapping("FP/Asix")
     public List<Asix> getAsix() {
         List<Asix> alumnosAsix = new ArrayList<>();
         alumnosAsix.add(new Asix("Gabriel", "Garcia Marquez", "gMarquez@gmail.com"));
@@ -24,7 +24,7 @@ public class GrupoController {
         return alumnosAsix;
     }
 
-    @GetMapping("Dam")
+    @GetMapping("FP/Dam")
     public List<Dam> getDam() {
         List<Dam> alumnosDam = new ArrayList<>();
         alumnosDam.add(new Dam("Gabriel", "Garcia Marquez", "gMarquez@gmail.com"));
@@ -35,7 +35,7 @@ public class GrupoController {
         return alumnosDam;
     }
 
-    @GetMapping("Daw")
+    @GetMapping("FP/Daw")
     public List<Daw> getDaw() {
         List<Daw> alumnosDaw = new ArrayList<>();
         alumnosDaw.add(new Daw("Gabriel", "Garcia Marquez", "gMarquez@gmail.com"));
@@ -46,7 +46,7 @@ public class GrupoController {
         return alumnosDaw;
     }
 
-    @GetMapping("Smix")
+    @GetMapping("FP/Smix")
     public List<Smix> getSmix() {
         List<Smix> alumnosSmix = new ArrayList<>();
         alumnosSmix.add(new Smix("Gabriel", "Garcia Marquez", "gMarquez@gmail.com"));
