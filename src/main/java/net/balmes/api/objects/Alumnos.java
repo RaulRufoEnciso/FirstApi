@@ -1,6 +1,15 @@
 package net.balmes.api.objects;
 
 import java.time.LocalDate;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
+
+@Data					// Añade los Getters y Setters
+@AllArgsConstructor		// Añade un Constructor completo
+@NoArgsConstructor		// Añade un Constructor vacio
+@ToString				// Añade un ToString
 
 public class Alumnos {
 	private String name;
@@ -8,6 +17,7 @@ public class Alumnos {
     private LocalDate since;
     private String dni;
     private String email;
+<<<<<<< HEAD
     private String grupo;
 
     public Alumnos() {
@@ -80,5 +90,8 @@ public class Alumnos {
 
 
     
+=======
+    private String grupo;   
+>>>>>>> 92ba84eb088dc02451d1a22a3fd201ab82712cd6
 
 }
