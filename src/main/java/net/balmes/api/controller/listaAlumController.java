@@ -17,7 +17,7 @@ public class listaAlumController {
 	public Alumnos getClient(@PathVariable int nlistaAlum) {
 		List<Alumnos> listaAlumnos = new ArrayList<>();
         
-		/*DAW 1 */
+		/*DAW 1 */      
         Alumnos Raul = new Alumnos("null", "null", LocalDate(200,06,18), "null", "null");
         Alumnos Javi = new Alumnos("Raul", "Rufo", LocalDate.of(2002, 06, 18), "24547458C", "rrufo@ejemlo.net");
         Alumnos Miguel = new Alumnos("Miguel", "Lopez", LocalDate.of(2003, 06, 18), "24547458X", "mlopez@ejemplo.net");
