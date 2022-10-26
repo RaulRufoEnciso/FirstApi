@@ -18,8 +18,8 @@ public class listaAlumController {
 		List<Alumnos> listaAlumnos = new ArrayList<>();
         
 		/*DAW 1 */      
-        Alumnos Raul = new Alumnos("null", "null", LocalDate(200,06,18), "null", "null");
-        Alumnos Javi = new Alumnos("Raul", "Rufo", LocalDate.of(2002, 06, 18), "24547458C", "rrufo@ejemlo.net");
+        Alumnos Javi = new Alumnos("null", "null", LocalDate.of(200,06,18), "null", "null");
+        Alumnos Raul = new Alumnos("Raul", "Rufo", LocalDate.of(2002, 06, 18), "24547458C", "rrufo@ejemlo.net");
         Alumnos Miguel = new Alumnos("Miguel", "Lopez", LocalDate.of(2003, 06, 18), "24547458X", "mlopez@ejemplo.net");
         Alumnos Felipe = new Alumnos("Felipe", "Garcia", LocalDate.of(2004, 06, 18), "24547458Z", "fgarcia@ejemlo.net");
         /*DAW 2 */
