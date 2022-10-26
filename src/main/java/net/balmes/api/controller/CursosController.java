@@ -1,3 +1,4 @@
+package net.balmes.api.controller;
 
 import net.balmes.api.objects.Cursos;
 import org.springframework.web.bind.annotation.GetMapping;
