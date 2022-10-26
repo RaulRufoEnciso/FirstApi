@@ -2,13 +2,15 @@ package net.balmes.api.controller;
 
 import net.balmes.api.objects.Cursos;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@RestController
 public class CursosControlller {
 
-    @GetMapping("cursos")
+    @GetMapping("Cursos")
     public List<Cursos> getCursos() {
         List<Cursos> CursosCFGS = new ArrayList<>();
         CursosCFGS.add(new Cursos("ASIX", "ASIX1",1, "21","diurn"));
