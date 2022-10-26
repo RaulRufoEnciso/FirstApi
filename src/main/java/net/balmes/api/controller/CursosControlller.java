@@ -8,7 +8,7 @@ import java.util.List;
 
 public class CursosControlller {
 
-    @GetMapping("Cursos")
+    @GetMapping("cursos")
     public List<Cursos> getCursos() {
         List<Cursos> CursosCFGS = new ArrayList<>();
         CursosCFGS.add(new Cursos("ASIX", "ASIX1",1, "21","diurn"));
@@ -24,8 +24,8 @@ public class CursosControlller {
         CursosCFGS.add(new Cursos("DAW", "DAW1",1,"26","nocturn"));
         CursosCFGS.add(new Cursos("DAW", "DAW2",2, "27","nocturn"));
 
-        //horario 1 = diurno
-        //horario 2 = nocturno
+        // Horario 1 = diurno
+        // Horario 2 = nocturno
 
         return CursosCFGS;
     }
