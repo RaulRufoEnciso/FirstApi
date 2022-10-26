@@ -82,11 +82,7 @@ public class listaAlumController {
 		return listaAlumnos.get(nlistaAlum -1);
 	}
 
-	private LocalDate LocalDate(int i, int j, int k) {
-        return null;
-    }
-
-    @GetMapping("listaAlum")
+	@GetMapping("listaAlum")
 	public List<Alumnos> getAlumnos() {
 		List<Alumnos> alumno = new ArrayList<>();
         /*DAW 1 */
