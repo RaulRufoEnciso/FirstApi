@@ -12,12 +12,9 @@ import lombok.ToString;
 @ToString				// Añade un ToString
 
 public class Alumnos {
-
 	private String name;
     private String surname;
     private LocalDate since;
     private String dni;
     private String email;
-    private String grupo;   
-
 }
