@@ -22,9 +22,9 @@ public class Cursos {	//Plain Old Java Object (POJO)
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
 	
-	final String group = "Cursos";
+	final static String group = "Cursos";
     private String cfgs;
-    private String año;
+    private String ano;
     private int curs;
     private String aula;
     private String grupo;
