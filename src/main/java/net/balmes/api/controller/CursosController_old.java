@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-public class CursosControlller {
+public class CursosControlller_old {
 
     @GetMapping("Cursos")
     public List<Cursos> getCursos() {
